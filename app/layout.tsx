@@ -23,11 +23,19 @@ export const metadata: Metadata = {
     template: `%s — ${SITE.name}`,
   },
   description: SITE.description,
+  icons: {
+    icon: [
+      { url: "/images/venom-viper-icon.png", type: "image/png" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    apple: "/app/apple-icon.png",
+  },
   openGraph: {
     type: "website",
     siteName: SITE.name,
     title: `${SITE.name} — ${SITE.tagline}`,
     description: SITE.description,
+    images: ["/images/venom-viper-icon.png"],
   },
 };
 
