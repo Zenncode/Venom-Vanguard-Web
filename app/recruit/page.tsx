@@ -10,7 +10,7 @@ import { SITE } from "@/app/constants/site";
 export const metadata: Metadata = {
   title: "Recruitment",
   description:
-    "Try out for Venom Vanguard. Requirements, open roles, and how to apply — Mythic+ players wanted.",
+    "Try out for Venom Vanguard. Requirements, open roles, and how to apply — any rank welcome.",
 };
 
 const mailto = `mailto:${SITE.email}?subject=${encodeURIComponent(
@@ -25,7 +25,7 @@ export default function RecruitPage() {
       <SectionHeading
         kicker="Tryouts Open"
         title="Join the Venom"
-        description="We&apos;re recruiting disciplined Mythic+ players who want to grind scrims, review VODs, and win tournaments."
+        description="We&apos;re recruiting disciplined players of any rank who want to grind scrims, review VODs, and win tournaments."
       />
 
       <div className="mt-14 grid gap-6 lg:grid-cols-[1.2fr_1fr]">

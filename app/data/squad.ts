@@ -419,10 +419,10 @@ export const newsPosts: NewsPost[] = [
     date: "2026-08-20",
     tag: "Announcement",
     excerpt:
-      "With the Invitational Circuit approaching, we're opening two sub slots. Mythic+ players with deep hero pools should apply now.",
+      "With the Invitational Circuit approaching, we're opening two sub slots. Players of any rank with deep hero pools should apply now.",
     body: [
       "Champions are made by depth, not just five names. Ahead of the November Invitational Circuit, Venom Vanguard is opening sub positions for EXP lane and Roam.",
-      "Requirements are unchanged: current or peak Mythic rank, age 16+, mic required, and a minimum three-hero tournament pool for your role. Subs rotate into scrim blocks every other week and travel with the roster for LAN events.",
+      "Requirements are simple: any rank, age 16+, mic required, and a minimum three-hero tournament pool for your role. We coach you up — subs rotate into scrim blocks every other week and travel with the roster for LAN events.",
       "Applications close September 15 or when slots fill — historically, they fill fast. Head to the Recruit page or apply directly in our Discord #tryout channel.",
     ],
   },
@@ -635,7 +635,7 @@ export const historyTimeline: HistoryEntry[] = [
 
 export const recruitment = {
   requirements: [
-    { title: "Mythic+ Rank", detail: "Current or peak Mythic. Honor/Glory preferred." },
+    { title: "Any Rank", detail: "All ranks welcome — Warrior to Mythical Glory. Attitude over badges." },
     { title: "Age 16+", detail: "Mature attitude in and out of the game." },
     { title: "Mic + Discord", detail: "Voice comms are mandatory during scrims." },
     {
@@ -667,8 +667,8 @@ export const faqs = [
     a: "Rolling tryouts every Friday and Saturday night after scrims — around 10 PM. We'll invite you to a private lobby lobby block once your application is reviewed.",
   },
   {
-    q: "Do you only accept Mythic players?",
-    a: "The baseline is current or peak Mythic because our scrim block runs at that level. Exceptional mechanics with lower rank still get considered if you can hang in draft reviews.",
+    q: "Do I need a certain rank to try out?",
+    a: "No — any rank is welcome, Warrior to Mythical Glory. Tryouts weigh mechanics, game sense, and attitude rather than a badge, and our coaches will place you at the squad level that fits.",
   },
   {
     q: "Is this a paid team?",

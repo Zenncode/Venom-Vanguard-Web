@@ -124,7 +124,7 @@ export default function Home() {
                 Ready to <span className="text-glow text-venom">Strike With Us?</span>
               </h2>
               <p className="mx-auto mt-4 max-w-lg font-body text-base text-muted">
-                Tryouts open for Mythic+ players. Join the Discord, drop your stats,
+                Tryouts open — any rank welcome. Join the Discord, drop your stats,
                 and show us your hero pool.
               </p>
               <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
