@@ -37,7 +37,7 @@ const HeroBanner = (): JSX.Element => {
         className="pointer-events-none absolute top-1/2 left-1/2 h-[580px] w-[580px] -translate-x-1/2 -translate-y-1/2 rounded-full opacity-60 blur-[130px]"
         style={{
           background:
-            "radial-gradient(circle, rgba(124,252,0,0.22) 0%, rgba(168,85,247,0.14) 50%, transparent 75%)",
+            "radial-gradient(circle, rgba(162, 89, 255,0.22) 0%, rgba(217, 70, 239,0.14) 50%, transparent 75%)",
           transform: `translate(calc(-50% + ${tilt.x * 40}px), calc(-50% + ${tilt.y * 40}px))`,
         }}
       />
@@ -45,7 +45,7 @@ const HeroBanner = (): JSX.Element => {
         aria-hidden
         className="pointer-events-none absolute top-1/4 right-10 h-[420px] w-[420px] rounded-full opacity-40 blur-[110px]"
         style={{
-          background: "radial-gradient(circle, rgba(57,255,20,0.22) 0%, transparent 70%)",
+          background: "radial-gradient(circle, rgba(207, 107, 255,0.22) 0%, transparent 70%)",
           transform: `translate(${tilt.x * -25}px, ${tilt.y * -20}px)`,
         }}
       />
@@ -61,7 +61,7 @@ const HeroBanner = (): JSX.Element => {
           }}
         >
           <div className="mb-4 inline-flex items-center gap-3 rounded-full border border-venom/30 bg-surface/70 px-3.5 py-1 backdrop-blur-md">
-            <span className="h-2 w-2 rounded-full bg-venom shadow-[0_0_8px_rgba(57,255,20,0.8)]" />
+            <span className="h-2 w-2 rounded-full bg-venom shadow-[0_0_8px_rgba(207, 107, 255,0.8)]" />
             <span className="font-display text-xs font-bold tracking-[0.25em] text-venom uppercase">
               Mobile Legends: Bang Bang Squad
             </span>

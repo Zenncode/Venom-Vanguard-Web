@@ -56,7 +56,7 @@ export const ROLE_META: Record<Role, { color: string; label: string }> = {
   Mid: { color: "#38bdf8", label: "Mid Lane" },
   EXP: { color: "#fb923c", label: "EXP Lane" },
   Gold: { color: "#facc15", label: "Gold Lane" },
-  Roam: { color: "#22d3ee", label: "Roam" },
+  Roam: { color: "#d946ef", label: "Roam" },
 };
 
 export const players: Player[] = [

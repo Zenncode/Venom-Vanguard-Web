@@ -14,7 +14,7 @@ const HighlightCard = ({ item, playerIgn }: HighlightCardProps): React.JSX.Eleme
   if (item.platform === "youtube" && item.videoId) {
     return (
       <div
-        className="clip-notch group relative aspect-video w-full overflow-hidden bg-surface ring-1 ring-line transition-shadow duration-300 hover:shadow-[0_0_26px_rgba(124,252,0,0.2)]"
+        className="clip-notch group relative aspect-video w-full overflow-hidden bg-surface ring-1 ring-line transition-shadow duration-300 hover:shadow-[0_0_26px_rgba(162, 89, 255,0.2)]"
       >
         {playing ? (
           <iframe
@@ -65,7 +65,7 @@ const HighlightCard = ({ item, playerIgn }: HighlightCardProps): React.JSX.Eleme
       href={item.url ?? "#"}
       target="_blank"
       rel="noopener noreferrer"
-      className="clip-notch group relative flex aspect-video w-full flex-col justify-end overflow-hidden bg-surface p-4 ring-1 ring-line transition-shadow duration-300 hover:shadow-[0_0_26px_rgba(168,85,247,0.25)]"
+      className="clip-notch group relative flex aspect-video w-full flex-col justify-end overflow-hidden bg-surface p-4 ring-1 ring-line transition-shadow duration-300 hover:shadow-[0_0_26px_rgba(217, 70, 239,0.25)]"
     >
       <span className="grid-bg absolute inset-0 opacity-50" />
       <span className="absolute inset-0 flex items-center justify-center font-display text-5xl font-black text-toxic/15 transition-transform duration-500 group-hover:scale-110">

@@ -70,11 +70,11 @@ export default function MatchesPage() {
               <span
                 className={`absolute -left-[9px] mt-2 h-4 w-4 rounded-full ring-4 ring-background ${
                   a.placement === "1st"
-                    ? "bg-venom shadow-[0_0_12px_rgba(124,252,0,0.8)]"
-                    : "bg-toxic shadow-[0_0_12px_rgba(168,85,247,0.7)]"
+                    ? "bg-venom shadow-[0_0_12px_rgba(162, 89, 255,0.8)]"
+                    : "bg-toxic shadow-[0_0_12px_rgba(217, 70, 239,0.7)]"
                 }`}
               />
-              <div className="clip-notch flex flex-wrap items-center gap-x-4 gap-y-2 bg-surface p-5 ring-1 ring-line transition-shadow hover:shadow-[0_0_20px_rgba(124,252,0,0.12)]">
+              <div className="clip-notch flex flex-wrap items-center gap-x-4 gap-y-2 bg-surface p-5 ring-1 ring-line transition-shadow hover:shadow-[0_0_20px_rgba(162, 89, 255,0.12)]">
                 <span
                   className={`clip-notch-sm px-2.5 py-1 font-display text-xs font-black ${
                     a.placement === "1st"

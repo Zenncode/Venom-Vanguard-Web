@@ -60,7 +60,7 @@ export default function ContactPage() {
                 {...(card.action.external
                   ? { target: "_blank", rel: "noopener noreferrer" }
                   : {})}
-                className="clip-notch-sm mt-5 inline-block bg-surface-raised px-4 py-2.5 text-center font-display text-[11px] font-bold tracking-wider text-foreground uppercase ring-1 ring-line transition-all hover:text-venom hover:shadow-[0_0_16px_rgba(124,252,0,0.25)] hover:ring-venom/50"
+                className="clip-notch-sm mt-5 inline-block bg-surface-raised px-4 py-2.5 text-center font-display text-[11px] font-bold tracking-wider text-foreground uppercase ring-1 ring-line transition-all hover:text-venom hover:shadow-[0_0_16px_rgba(162, 89, 255,0.25)] hover:ring-venom/50"
               >
                 {card.action.label}
               </a>
@@ -99,7 +99,7 @@ export default function ContactPage() {
                 href={social.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="clip-notch group bg-surface p-6 text-center ring-1 ring-line transition-all hover:shadow-[0_0_22px_rgba(124,252,0,0.18)] hover:ring-venom/40"
+                className="clip-notch group bg-surface p-6 text-center ring-1 ring-line transition-all hover:shadow-[0_0_22px_rgba(162, 89, 255,0.18)] hover:ring-venom/40"
               >
                 <p className="font-display text-base font-bold tracking-wider uppercase transition-colors group-hover:text-venom">
                   {social.label}

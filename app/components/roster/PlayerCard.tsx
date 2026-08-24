@@ -17,15 +17,15 @@ const PlayerCard = ({ player }: PlayerCardProps): JSX.Element => {
     <TiltCard className="h-full">
       <Link
         href={`/roster/${player.id}`}
-        className="clip-notch group flex h-full flex-col gap-4 bg-surface p-5 ring-1 ring-line transition-shadow duration-300 hover:shadow-[0_0_28px_rgba(124,252,0,0.15)]"
+        className="clip-notch group flex h-full flex-col gap-4 bg-surface p-5 ring-1 ring-line transition-shadow duration-300 hover:shadow-[0_0_28px_rgba(162, 89, 255,0.15)]"
       >
         <div className="flex items-start justify-between">
           <div
             className="clip-notch flex h-16 w-16 items-center justify-center font-display text-lg font-black"
             style={{
-              color: player.captain ? "#7cfc00" : "#ededf2",
-              background: `linear-gradient(135deg, ${player.role === "Jungler" ? "#f43f5e22" : "#a855f722"}, #101018)`,
-              boxShadow: `inset 0 0 0 1px rgba(124,252,0,0.25)`,
+              color: player.captain ? "#a259ff" : "#f1ecfb",
+              background: `linear-gradient(135deg, ${player.role === "Jungler" ? "#f43f5e22" : "#d946ef22"}, #14101f)`,
+              boxShadow: `inset 0 0 0 1px rgba(162, 89, 255,0.25)`,
             }}
           >
             {initials}
@@ -55,7 +55,7 @@ const PlayerCard = ({ player }: PlayerCardProps): JSX.Element => {
           </div>
           <div className="h-1.5 w-full overflow-hidden bg-background">
             <div
-              className="h-full bg-gradient-to-r from-venom/60 to-venom shadow-[0_0_8px_rgba(124,252,0,0.6)]"
+              className="h-full bg-gradient-to-r from-venom/60 to-venom shadow-[0_0_8px_rgba(162, 89, 255,0.6)]"
               style={{ width: `${player.winRate}%` }}
             />
           </div>

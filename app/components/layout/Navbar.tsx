@@ -82,7 +82,7 @@ const Navbar = (): JSX.Element => {
               >
                 {link.label}
                 <span
-                  className={`absolute inset-x-3 -bottom-0.5 h-0.5 origin-left bg-venom shadow-[0_0_8px_rgba(124,252,0,0.7)] transition-transform duration-300 ${
+                  className={`absolute inset-x-3 -bottom-0.5 h-0.5 origin-left bg-venom shadow-[0_0_8px_rgba(162, 89, 255,0.7)] transition-transform duration-300 ${
                     isActive(pathname, link.href)
                       ? "scale-x-100"
                       : "scale-x-0 group-hover:scale-x-100"
@@ -144,7 +144,7 @@ const Navbar = (): JSX.Element => {
             href={SITE.discord}
             target="_blank"
             rel="noopener noreferrer"
-            className="clip-notch-sm hidden items-center gap-2 bg-venom px-4 py-2 font-display text-xs font-bold tracking-wider text-background uppercase transition-all hover:shadow-[0_0_22px_rgba(124,252,0,0.55)] sm:flex"
+            className="clip-notch-sm hidden items-center gap-2 bg-venom px-4 py-2 font-display text-xs font-bold tracking-wider text-background uppercase transition-all hover:shadow-[0_0_22px_rgba(162, 89, 255,0.55)] sm:flex"
           >
             Join Discord
           </a>
