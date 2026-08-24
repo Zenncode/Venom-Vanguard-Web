@@ -145,7 +145,7 @@ export default async function PlayerPage(props: PageProps<"/roster/[member]">) {
           bracket?
         </h2>
         <p className="mx-auto mt-3 max-w-md font-body text-sm text-muted">
-          Tryouts are open for Mythic+ players. Come earn a spot on the strike
+          Tryouts are open — any rank welcome. Come earn a spot on the strike
           team.
         </p>
         <div className="mt-6 flex justify-center">
