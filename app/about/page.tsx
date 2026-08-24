@@ -66,8 +66,8 @@ export default function AboutPage() {
         {historyTimeline.map((entry, i) => (
           <ScrollReveal key={entry.period} delay={i * 90} direction="left">
             <li className="relative">
-              <span className="absolute top-1.5 -left-[41px] h-4 w-4 rounded-full bg-venom shadow-[0_0_12px_rgba(162, 89, 255,0.8)] ring-4 ring-background" />
-              <div className="clip-notch bg-surface p-6 ring-1 ring-line transition-shadow hover:shadow-[0_0_20px_rgba(162, 89, 255,0.12)]">
+              <span className="absolute top-1.5 -left-[41px] h-4 w-4 rounded-full bg-venom shadow-[0_0_12px_rgba(168, 85, 247,0.8)] ring-4 ring-background" />
+              <div className="clip-notch bg-surface p-6 ring-1 ring-line transition-shadow hover:shadow-[0_0_20px_rgba(168, 85, 247,0.12)]">
                 <p className="font-display text-[11px] font-bold tracking-[0.25em] text-venom uppercase">
                   {entry.period}
                 </p>

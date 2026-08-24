@@ -63,7 +63,7 @@ const Footer = (): JSX.Element => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={social.label}
-                className="clip-notch-sm flex h-10 w-10 items-center justify-center bg-surface text-muted ring-1 ring-line transition-all hover:text-venom hover:shadow-[0_0_16px_rgba(162, 89, 255,0.35)] hover:ring-venom/50"
+                className="clip-notch-sm flex h-10 w-10 items-center justify-center bg-surface text-muted ring-1 ring-line transition-all hover:text-venom hover:shadow-[0_0_16px_rgba(168, 85, 247,0.35)] hover:ring-venom/50"
               >
                 {social.icon}
               </a>
@@ -98,7 +98,7 @@ const Footer = (): JSX.Element => {
           </p>
           <Link
             href="/recruit"
-            className="mt-3 inline-block clip-notch-sm bg-venom px-4 py-2 font-display text-xs font-bold tracking-wider text-background uppercase transition-all hover:shadow-[0_0_22px_rgba(162, 89, 255,0.55)]"
+            className="mt-3 inline-block clip-notch-sm bg-venom px-4 py-2 font-display text-xs font-bold tracking-wider text-background uppercase transition-all hover:shadow-[0_0_22px_rgba(168, 85, 247,0.55)]"
           >
             Try Out
           </Link>

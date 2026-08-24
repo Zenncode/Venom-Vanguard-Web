@@ -26,7 +26,7 @@ const Logo = ({ size = "md", showText = true }: LogoProps): JSX.Element => {
     <Link href="/" className="group inline-flex items-center gap-3 select-none">
       {/* High-Impact Cyber Viper Crest Icon */}
       <div
-        className={`relative ${iconSize} flex-shrink-0 transition-all duration-300 drop-shadow-[0_0_12px_rgba(207, 107, 255,0.55)] group-hover:scale-110 group-hover:drop-shadow-[0_0_20px_rgba(207, 107, 255,0.9)]`}
+        className={`relative ${iconSize} flex-shrink-0 transition-all duration-300 drop-shadow-[0_0_12px_rgba(192, 132, 252,0.55)] group-hover:scale-110 group-hover:drop-shadow-[0_0_20px_rgba(192, 132, 252,0.9)]`}
       >
         <Image
           src="/images/venom-viper-icon.png"

@@ -4,12 +4,12 @@
   --background: #0a0713;
   --surface: #14101f;
   --surface-raised: #1b1530;
-  --venom: #a259ff;
-  --venom-bright: #cf6bff;
+  --venom: #a855f7;
+  --venom-bright: #c084fc;
   --toxic: #d946ef;
   --foreground: #f1ecfb;
   --muted: #9b91b0;
-  --line: rgba(162, 89, 255, 0.15);
+  --line: rgba(168, 85, 247, 0.15);
 }
 
 @theme inline {
@@ -34,10 +34,10 @@
 @keyframes pulse-glow {
   0%,
   100% {
-    box-shadow: 0 0 18px rgba(162, 89, 255, 0.25);
+    box-shadow: 0 0 18px rgba(168, 85, 247, 0.25);
   }
   50% {
-    box-shadow: 0 0 34px rgba(162, 89, 255, 0.5);
+    box-shadow: 0 0 34px rgba(168, 85, 247, 0.5);
   }
 }
 
@@ -84,7 +84,7 @@
 
 body {
   background:
-    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(162, 89, 255, 0.08), transparent),
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(168, 85, 247, 0.08), transparent),
     radial-gradient(ellipse 60% 40% at 90% 110%, rgba(217, 70, 239, 0.07), transparent),
     var(--background);
   color: var(--foreground);
@@ -92,7 +92,7 @@ body {
 }
 
 ::selection {
-  background: rgba(162, 89, 255, 0.3);
+  background: rgba(168, 85, 247, 0.3);
   color: var(--foreground);
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(162, 89, 255, 0.4);
+  background: rgba(168, 85, 247, 0.4);
 }
 
 @utility clip-notch {
@@ -123,13 +123,13 @@ body {
 
 @utility grid-bg {
   background-image:
-    linear-gradient(rgba(162, 89, 255, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(162, 89, 255, 0.04) 1px, transparent 1px);
+    linear-gradient(rgba(168, 85, 247, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(168, 85, 247, 0.04) 1px, transparent 1px);
   background-size: 44px 44px;
 }
 
 @utility text-glow {
-  text-shadow: 0 0 22px rgba(162, 89, 255, 0.45);
+  text-shadow: 0 0 22px rgba(168, 85, 247, 0.45);
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -26,7 +26,7 @@ const RosterGrid = ({ players }: RosterGridProps): JSX.Element => {
             onClick={() => setFilter(f)}
             className={`clip-notch-sm px-4 py-2 font-display text-[11px] font-bold tracking-[0.18em] uppercase transition-all duration-300 ${
               filter === f
-                ? "bg-venom text-background shadow-[0_0_18px_rgba(162, 89, 255,0.4)]"
+                ? "bg-venom text-background shadow-[0_0_18px_rgba(168, 85, 247,0.4)]"
                 : "bg-surface text-muted ring-1 ring-line hover:text-foreground hover:ring-venom/40"
             }`}
           >

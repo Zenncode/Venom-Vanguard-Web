@@ -71,7 +71,7 @@ const TiltCard = ({
             glaring ? "opacity-100" : "opacity-0"
           }`}
           style={{
-            background: `radial-gradient(circle at ${glarePos.x}% ${glarePos.y}%, rgba(162, 89, 255,0.12), transparent 55%)`,
+            background: `radial-gradient(circle at ${glarePos.x}% ${glarePos.y}%, rgba(168, 85, 247,0.12), transparent 55%)`,
           }}
         />
       )}

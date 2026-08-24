@@ -38,8 +38,8 @@ export default function OrgEmblemHero(): JSX.Element {
         className="pointer-events-none absolute h-[360px] w-[360px] rounded-full opacity-60 blur-[100px] transition-all duration-700 sm:h-[450px] sm:w-[450px]"
         style={{
           background: hovered
-            ? "radial-gradient(circle, rgba(207, 107, 255,0.55) 0%, rgba(217, 70, 239,0.3) 45%, transparent 70%)"
-            : "radial-gradient(circle, rgba(207, 107, 255,0.32) 0%, rgba(217, 70, 239,0.18) 45%, transparent 70%)",
+            ? "radial-gradient(circle, rgba(192, 132, 252,0.55) 0%, rgba(217, 70, 239,0.3) 45%, transparent 70%)"
+            : "radial-gradient(circle, rgba(192, 132, 252,0.32) 0%, rgba(217, 70, 239,0.18) 45%, transparent 70%)",
           transform: `translate(${tilt.x * 0.4}px, ${tilt.y * -0.4}px) scale(${hovered ? 1.15 : 1.0})`,
         }}
       />
@@ -58,7 +58,7 @@ export default function OrgEmblemHero(): JSX.Element {
           aria-hidden
           className={`pointer-events-none absolute h-[330px] w-[330px] rounded-full border border-venom/20 transition-all duration-1000 sm:h-[410px] sm:w-[410px] ${
             hovered
-              ? "scale-110 rotate-90 border-venom/50 shadow-[0_0_35px_rgba(207, 107, 255,0.4)]"
+              ? "scale-110 rotate-90 border-venom/50 shadow-[0_0_35px_rgba(192, 132, 252,0.4)]"
               : "scale-100 rotate-0"
           }`}
         />
@@ -75,8 +75,8 @@ export default function OrgEmblemHero(): JSX.Element {
         <div
           className={`relative h-[310px] w-[310px] sm:h-[390px] sm:w-[390px] transition-all duration-500 ${
             hovered
-              ? "scale-105 drop-shadow-[0_0_45px_rgba(207, 107, 255,0.95)]"
-              : "scale-100 drop-shadow-[0_0_25px_rgba(207, 107, 255,0.6)]"
+              ? "scale-105 drop-shadow-[0_0_45px_rgba(192, 132, 252,0.95)]"
+              : "scale-100 drop-shadow-[0_0_25px_rgba(192, 132, 252,0.6)]"
           }`}
         >
           <Image

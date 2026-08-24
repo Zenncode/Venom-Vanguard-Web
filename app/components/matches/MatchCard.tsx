@@ -22,13 +22,13 @@ const MatchCard = ({ match }: MatchCardProps): JSX.Element => {
       href={`/matches/${match.id}`}
       className={`clip-notch group relative flex flex-wrap items-center gap-x-5 gap-y-3 bg-surface p-4 ring-1 transition-all duration-300 sm:flex-nowrap ${
         win
-          ? "ring-line hover:shadow-[0_0_24px_rgba(162, 89, 255,0.15)]"
+          ? "ring-line hover:shadow-[0_0_24px_rgba(168, 85, 247,0.15)]"
           : "ring-red-500/20 hover:shadow-[0_0_24px_rgba(244,63,94,0.12)]"
       }`}
     >
       <span
         className={`absolute top-0 left-0 h-full w-0.75 ${win ? "bg-venom" : "bg-red-500"}`}
-        style={{ boxShadow: win ? "0 0 10px rgba(162, 89, 255,0.7)" : "0 0 10px rgba(244,63,94,0.7)" }}
+        style={{ boxShadow: win ? "0 0 10px rgba(168, 85, 247,0.7)" : "0 0 10px rgba(244,63,94,0.7)" }}
       />
 
       <div className="flex min-w-14 flex-col items-center">
@@ -65,7 +65,7 @@ const MatchCard = ({ match }: MatchCardProps): JSX.Element => {
         {mvp && (
           <span
             title={`MVP: ${mvp.ign}`}
-            className="hidden clip-notch-sm bg-venom/10 px-2 py-1 font-display text-[10px] font-bold tracking-widest text-venom uppercase ring-1 ring-venom/30 group-hover:shadow-[0_0_12px_rgba(162, 89, 255,0.4)] sm:block"
+            className="hidden clip-notch-sm bg-venom/10 px-2 py-1 font-display text-[10px] font-bold tracking-widest text-venom uppercase ring-1 ring-venom/30 group-hover:shadow-[0_0_12px_rgba(168, 85, 247,0.4)] sm:block"
           >
             MVP {mvp.ign}
           </span>

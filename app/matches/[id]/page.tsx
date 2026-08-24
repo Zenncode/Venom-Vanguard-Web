@@ -89,7 +89,7 @@ export default async function MatchPage(props: PageProps<"/matches/[id]">) {
           {mvp && (
             <Link
               href={`/roster/${mvp.id}`}
-              className="clip-notch group flex items-center gap-4 bg-surface p-5 ring-1 ring-venom/30 transition-shadow hover:shadow-[0_0_24px_rgba(162, 89, 255,0.18)]"
+              className="clip-notch group flex items-center gap-4 bg-surface p-5 ring-1 ring-venom/30 transition-shadow hover:shadow-[0_0_24px_rgba(168, 85, 247,0.18)]"
             >
               <span className="clip-notch-sm flex h-12 w-12 shrink-0 items-center justify-center bg-venom/15 font-display text-base font-black text-venom ring-1 ring-venom/40">
                 MVP
@@ -148,7 +148,7 @@ export default async function MatchPage(props: PageProps<"/matches/[id]">) {
                   {gameMvp && (
                     <Link
                       href={`/roster/${gameMvp.id}`}
-                      className="clip-notch-sm bg-surface-raised px-2 py-1 font-display text-[10px] font-bold tracking-widest text-venom uppercase ring-1 ring-venom/25 transition-shadow hover:shadow-[0_0_10px_rgba(162, 89, 255,0.35)]"
+                      className="clip-notch-sm bg-surface-raised px-2 py-1 font-display text-[10px] font-bold tracking-widest text-venom uppercase ring-1 ring-venom/25 transition-shadow hover:shadow-[0_0_10px_rgba(168, 85, 247,0.35)]"
                     >
                       MVP {gameMvp.ign}
                     </Link>

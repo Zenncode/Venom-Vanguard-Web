@@ -65,7 +65,7 @@ export default function StatsPage() {
                   <div className="flex items-center gap-3">
                     <div className="h-1.5 w-24 overflow-hidden bg-background">
                       <div
-                        className={`h-full ${player.winRate === maxWr ? "bg-gradient-to-r from-venom/60 to-venom shadow-[0_0_8px_rgba(162, 89, 255,0.6)]" : "bg-muted/50"}`}
+                        className={`h-full ${player.winRate === maxWr ? "bg-gradient-to-r from-venom/60 to-venom shadow-[0_0_8px_rgba(168, 85, 247,0.6)]" : "bg-muted/50"}`}
                         style={{ width: `${player.winRate}%` }}
                       />
                     </div>

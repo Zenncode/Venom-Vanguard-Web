@@ -18,7 +18,7 @@ const FaqAccordion = ({ items }: FaqAccordionProps): JSX.Element => {
           <div
             key={item.q}
             className={`clip-notch bg-surface ring-1 transition-all duration-300 ${
-              isOpen ? "ring-venom/40 shadow-[0_0_20px_rgba(162, 89, 255,0.1)]" : "ring-line"
+              isOpen ? "ring-venom/40 shadow-[0_0_20px_rgba(168, 85, 247,0.1)]" : "ring-line"
             }`}
           >
             <button

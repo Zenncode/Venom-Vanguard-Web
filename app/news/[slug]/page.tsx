@@ -78,7 +78,7 @@ export default async function NewsArticlePage(
               <Link
                 key={other.slug}
                 href={`/news/${other.slug}`}
-                className="clip-notch bg-surface p-5 ring-1 ring-line transition-shadow hover:shadow-[0_0_20px_rgba(162, 89, 255,0.12)]"
+                className="clip-notch bg-surface p-5 ring-1 ring-line transition-shadow hover:shadow-[0_0_20px_rgba(168, 85, 247,0.12)]"
               >
                 <p className="font-display text-[10px] font-bold tracking-[0.2em] text-toxic uppercase">
                   {other.tag} · {formatDate(other.date)}

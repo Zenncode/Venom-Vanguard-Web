@@ -116,7 +116,7 @@ export default function Home() {
               className="absolute inset-0 opacity-60"
               style={{
                 background:
-                  "radial-gradient(ellipse 60% 80% at 50% 120%, rgba(162, 89, 255,0.14), transparent), radial-gradient(ellipse 40% 60% at 85% -10%, rgba(217, 70, 239,0.12), transparent)",
+                  "radial-gradient(ellipse 60% 80% at 50% 120%, rgba(168, 85, 247,0.14), transparent), radial-gradient(ellipse 40% 60% at 85% -10%, rgba(217, 70, 239,0.12), transparent)",
               }}
             />
             <div className="relative">
@@ -134,7 +134,7 @@ export default function Home() {
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="clip-notch-sm bg-surface-raised px-5 py-2.5 font-display text-xs font-bold tracking-wider text-muted uppercase ring-1 ring-line transition-all hover:text-venom hover:shadow-[0_0_16px_rgba(162, 89, 255,0.3)] hover:ring-venom/50"
+                    className="clip-notch-sm bg-surface-raised px-5 py-2.5 font-display text-xs font-bold tracking-wider text-muted uppercase ring-1 ring-line transition-all hover:text-venom hover:shadow-[0_0_16px_rgba(168, 85, 247,0.3)] hover:ring-venom/50"
                   >
                     {social.label}
                   </a>

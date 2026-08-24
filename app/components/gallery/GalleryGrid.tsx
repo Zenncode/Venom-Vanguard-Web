@@ -85,7 +85,7 @@ const GalleryGrid = ({ items }: GalleryGridProps): JSX.Element => {
             onClick={() => setCategory(c)}
             className={`clip-notch-sm px-4 py-2 font-display text-[11px] font-bold tracking-[0.18em] uppercase transition-all duration-300 ${
               category === c
-                ? "bg-venom text-background shadow-[0_0_18px_rgba(162, 89, 255,0.4)]"
+                ? "bg-venom text-background shadow-[0_0_18px_rgba(168, 85, 247,0.4)]"
                 : "bg-surface text-muted ring-1 ring-line hover:text-foreground hover:ring-venom/40"
             }`}
           >
@@ -101,7 +101,7 @@ const GalleryGrid = ({ items }: GalleryGridProps): JSX.Element => {
             type="button"
             onClick={() => setLightbox(i)}
             aria-label={item.caption ?? "Open gallery item"}
-            className={`clip-notch animate-fade-up group relative overflow-hidden ring-1 ring-line transition-shadow duration-300 hover:shadow-[0_0_26px_rgba(162, 89, 255,0.22)] hover:ring-venom/40 ${
+            className={`clip-notch animate-fade-up group relative overflow-hidden ring-1 ring-line transition-shadow duration-300 hover:shadow-[0_0_26px_rgba(168, 85, 247,0.22)] hover:ring-venom/40 ${
               i % 7 === 0 ? "row-span-2" : ""
             } ${i % 5 === 2 ? "sm:col-span-2" : ""}`}
             style={{ animationDelay: `${i * 60}ms` }}

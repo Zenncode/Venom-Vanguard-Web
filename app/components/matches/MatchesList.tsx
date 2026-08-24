@@ -45,7 +45,7 @@ const MatchesList = ({ matches }: MatchesListProps): JSX.Element => {
               onClick={() => setType(t)}
               className={`${chip} ${
                 type === t
-                  ? "bg-venom text-background shadow-[0_0_16px_rgba(162, 89, 255,0.35)]"
+                  ? "bg-venom text-background shadow-[0_0_16px_rgba(168, 85, 247,0.35)]"
                   : "bg-surface text-muted ring-1 ring-line hover:text-foreground"
               }`}
             >
@@ -70,7 +70,7 @@ const MatchesList = ({ matches }: MatchesListProps): JSX.Element => {
                   ? r.key === "loss"
                     ? "bg-red-500 text-white shadow-[0_0_16px_rgba(244,63,94,0.35)]"
                     : r.key === "win"
-                      ? "bg-venom text-background shadow-[0_0_16px_rgba(162, 89, 255,0.35)]"
+                      ? "bg-venom text-background shadow-[0_0_16px_rgba(168, 85, 247,0.35)]"
                       : "bg-surface-raised text-foreground ring-1 ring-venom/50"
                   : "bg-surface text-muted ring-1 ring-line hover:text-foreground"
               }`}

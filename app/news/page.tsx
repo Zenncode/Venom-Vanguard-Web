@@ -33,7 +33,7 @@ export default function NewsPage() {
           <ScrollReveal key={post.slug} delay={i * 80}>
             <Link
               href={`/news/${post.slug}`}
-              className="clip-notch group block bg-surface p-6 ring-1 ring-line transition-shadow duration-300 hover:shadow-[0_0_24px_rgba(162, 89, 255,0.14)] sm:p-7"
+              className="clip-notch group block bg-surface p-6 ring-1 ring-line transition-shadow duration-300 hover:shadow-[0_0_24px_rgba(168, 85, 247,0.14)] sm:p-7"
             >
               <div className="flex flex-wrap items-center gap-3">
                 <span
